@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Demo Page</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="script.js" defer></script>
+
+</head>
+
+
+
+<body>
+
+    <header>
+
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">
+                    NEW GENERATION OF <br>SKATING
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque esse ex distinctio fuga unde voluptatum quasi expedita ut odio nulla magni, rerum quam fugiat iste doloribus officia blanditiis dolorem excepturi.</p>
+                </div>
+
+                <img src="./assets/hero_2.jpg.webp" style="width:100vw;">
+
+                <div class="text"> <button class="btn-one">Get in touch</button> </div>
+            </div>
+
+
+            <div class="mySlides fade">
+                <div class="numbertext">
+                    HI I'M JOHN AND I <br>SKATE A LOT
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque esse ex distinctio fuga unde voluptatum quasi expedita ut odio nulla magni, rerum quam fugiat iste doloribus officia blanditiis dolorem excepturi.</p>
+                </div>
+
+                <img src="./assets/hero_3.jpg.webp" style="width:100vw;">
+
+                <div class="text"> <button class="btn-one">Get in touch</button> </div>
+            </div>
+
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)"> &#10094; </a>
+            <a class="next" onclick="plusSlides(1)"> &#10095; </a>
+
+        </div>
+
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+
+
+        <nav id="nav-bar">
+
+            <span id="logo-text">SKATER</span>
+
+            <ul id="nav-items-container">
+                <li> <a class="nav-items" id="home" href="">Home</a> </li>
+                <li> <a class="nav-items" href="">Services</a> </li>
+                <li> <a class="nav-items" href="">About</a> </li>
+                <li> <a class="nav-items" href="">Testimonials</a> </li>
+                <li> <a class="nav-items" href="">Blog</a> </li>
+                <li> <a class="nav-items" href="">Contact</a> </li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+</body>
+
+</html>
