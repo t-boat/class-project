@@ -131,7 +131,7 @@ body {
 }
 
 #nav-bar {
-  height: 100px;
+  height: 80px;
   width: 100%;
   padding: 0 8rem;
 
@@ -160,4 +160,30 @@ body {
 
 #home {
   color: white;
+}
+
+
+.sections {
+  background-color: rgb(34, 34, 34);
+}
+
+
+#services-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 5rem;
+}
+
+#services {
+  color: rgb(255, 139, 0);
+  font-size: 25pt;
+  font-weight: 900;
+}
+
+#services-container p {
+  width: 600px;
+  font-size: 13pt;
+  color: rgb(49, 81, 118);
 }
