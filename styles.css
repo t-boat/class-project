@@ -1,3 +1,5 @@
+* {box-sizing: border-box;}
+
 body {
   margin: 0;
 }
@@ -50,7 +52,7 @@ body {
 
 /* Caption text */
 .text {
-  padding: 8px 12px;
+  /* padding: 8px 12px; */
   position: absolute;
   bottom: 4rem;
   
@@ -82,15 +84,17 @@ body {
 
   position: absolute;
   top: 40%;
-  left: 32%;
 
-  border: 2px solid goldenrod;
-  width: 500px;
-  text-align: center;
+  width: 100%;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .numbertext p {
   font-size: medium;
+  width: 50%;
 }
 
 
@@ -185,5 +189,24 @@ body {
 #services-container p {
   width: 600px;
   font-size: 13pt;
-  color: rgb(49, 81, 118);
+  color: rgba(255, 255, 255, 0.4);
+}
+
+
+#parent-grid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 30px;
+grid-row-gap: 20px;
+
+padding: 2rem 5rem;
+}
+
+.cards p {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.card-headings {
+  color: rgb(255, 139, 0);
 }
